@@ -1,0 +1,58 @@
+[
+  {
+    "kod": "CJ-001",
+    "marka": "Leathers",
+    "model": "Vintage Deri Ceket",
+    "kategori": "Ceket",
+    "beden": "L",
+    "omuz": "48cm",
+    "gogus": "56cm",
+    "boy": "68cm",
+    "fiyat": 450,
+    "durum": "temiz",
+    "gorsel": "",
+    "not": "Yumuşak deri, minimal izler."
+  },
+  {
+    "kod": "JK-200",
+    "marka": "Nord",
+    "model": "Kışlık Mont",
+    "kategori": "Mont",
+    "beden": "XL",
+    "omuz": "50cm",
+    "gogus": "62cm",
+    "boy": "78cm",
+    "fiyat": 350,
+    "durum": "defolu",
+    "gorsel": "",
+    "not": "Sol kol iç dikişte küçük sökük."
+  },
+  {
+    "kod": "SH-032",
+    "marka": "Oxford",
+    "model": "Kareli Gömlek",
+    "kategori": "Gömlek",
+    "beden": "M",
+    "omuz": "45cm",
+    "gogus": "54cm",
+    "boy": "74cm",
+    "fiyat": 120,
+    "durum": "temiz",
+    "gorsel": "",
+    "not": ""
+  },
+  {
+    "kod": "SW-114",
+    "marka": "Fisher",
+    "model": "Yün Kazak",
+    "kategori": "Kazak",
+    "beden": "M",
+    "omuz": "44cm",
+    "gogus": "52cm",
+    "boy": "66cm",
+    "fiyat": 90,
+    "durum": "defolu",
+    "gorsel": "",
+    "not": "Alt etekte hafif tüylenme."
+  }
+]
