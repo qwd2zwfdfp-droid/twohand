@@ -1,0 +1,35 @@
+:root{--max:1100px;--pad:20px;--accent:#4a7cff}
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:#111;background:#fff}
+a{text-decoration:none;color:inherit}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 var(--pad)}
+.nav{position:sticky;top:0;background:rgba(255,255,255,.85);backdrop-filter:blur(8px);border-bottom:1px solid #eee}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;padding:12px var(--pad)}
+.logo{font-weight:700}
+.btn{padding:10px 14px;border:1px solid #ddd;border-radius:10px;display:inline-block}
+.btn.primary{background:var(--accent);color:#fff;border-color:var(--accent)}
+.btn.ghost{background:#fff;color:#333}
+.hero{border-bottom:1px solid #f2f2f2}
+.hero-inner{display:grid;grid-template-columns:1.2fr .8fr;gap:24px;align-items:center;padding:32px var(--pad)}
+.hero h1{font-size:clamp(28px,4vw,46px);line-height:1.1;margin:0 0 10px}
+.accent{color:var(--accent)}
+.hero p{color:#444}
+.hero-img{width:100%;border-radius:16px}
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin:22px 0}
+.filters input,.filters select{padding:10px;border:1px solid #ddd;border-radius:10px;font:inherit}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.card{border:1px solid #eee;border-radius:14px;overflow:hidden;display:flex;flex-direction:column}
+.card img{width:100%;aspect-ratio:4/3;object-fit:cover}
+.card .pad{padding:12px}
+.badges{display:flex;gap:6px;margin:6px 0 10px;flex-wrap:wrap}
+.badge{font-size:12px;border:1px solid #ddd;border-radius:999px;padding:4px 8px}
+.badge.defect{border-color:#e67e22;color:#e67e22}
+.price{font-size:20px;font-weight:700}
+.meta{color:#666;font-size:14px}
+.actions{display:flex;gap:8px;margin-top:auto;padding:12px;border-top:1px solid #eee}
+.actions .btn{flex:1;text-align:center}
+.muted{color:#666;margin:16px 0}
+.how,.faq{margin:40px auto}
+.footer{border-top:1px solid #eee;margin-top:40px;padding:20px 0;color:#666}
+.tiny{font-size:12px;color:#888}
+@media (max-width: 900px){.grid{grid-template-columns:1fr}.hero-inner{grid-template-columns:1fr;}.nav nav a{margin-left:8px}}
