@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AYT Vintage — Seçkin İkinci El & Vintage</title>
+  <meta name="description" content="Ceket, mont ve seçili vintage parçalar. Temiz ve defolu ürünler uygun fiyatla. Hızlı kargo. WhatsApp ile hemen sor.">
+  <meta property="og:title" content="AYT Vintage" />
+  <meta property="og:description" content="Ceket, mont ve seçili vintage parçalar. Hızlı kargo." />
+  <meta property="og:type" content="website" />
+  <link rel="stylesheet" href="styles.css" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Store",
+    "name": "AYT Vintage",
+    "image": "https://picsum.photos/seed/vintage/1200/630",
+    "description": "Ceket, mont ve seçili vintage parçalar.",
+    "address": { "@type": "PostalAddress", "addressCountry": "TR" }
+  }
+  </script>
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap">
+      <a class="logo" href="#">AYT Vintage</a>
+      <nav>
+        <a href="#urunler">Ürünler</a>
+        <a href="#nasil">Nasıl Çalışır</a>
+        <a href="#sss">SSS</a>
+        <a class="btn" href="https://wa.me/905555555555" target="_blank" rel="noopener">WhatsApp</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <div class="hero-copy">
+        <h1>Vintage & ikinci el <span class="accent">ceket–mont</span> seçkisi</h1>
+        <p>Temiz ve <strong>defolu</strong> seçenekler: bütçene göre filtrele, ölçülere bak, WhatsApp’tan sor, hızlı kargo.</p>
+        <a class="btn primary" href="#urunler">Koleksiyona Git</a>
+      </div>
+      <img class="hero-img" src="https://picsum.photos/seed/aytv/900/560" alt="Vintage ceket ve mont kolajı" />
+    </div>
+  </section>
+
+  <main id="urunler" class="wrap">
+    <h2>Ürünler</h2>
+    <div class="filters">
+      <input id="q" placeholder="Ara: marka / model / beden" />
+      <select id="kategori">
+        <option value="">Kategori (tümü)</option>
+        <option>Ceket</option>
+        <option>Mont</option>
+        <option>Kazak</option>
+        <option>Gömlek</option>
+      </select>
+      <select id="durum">
+        <option value="">Durum (tümü)</option>
+        <option value="temiz">Temiz</option>
+        <option value="defolu">Lekeli / Defolu</option>
+      </select>
+      <input id="min" type="number" min="0" step="10" placeholder="Min ₺" />
+      <input id="max" type="number" min="0" step="10" placeholder="Max ₺" />
+      <button id="filtrele" class="btn">Filtrele</button>
+      <button id="sifirla" class="btn ghost">Sıfırla</button>
+    </div>
+
+    <div id="grid" class="grid"></div>
+    <p id="sonuc" class="muted"></p>
+  </main>
+
+  <section id="nasil" class="wrap how">
+    <h2>Nasıl Çalışır?</h2>
+    <ol>
+      <li>Beğendiğin ürünü sepete eklemeden <strong>WhatsApp ile sor</strong> tuşuna bas.</li>
+      <li>Ölçü, ek görsel ve <em>defolu ise kusur fotoğrafı</em> iste.</li>
+      <li>Onaydan sonra kapıda ödeme veya havale/FAST. Hızlı kargo.</li>
+    </ol>
+  </section>
+
+  <section id="sss" class="wrap faq">
+    <h2>SSS</h2>
+    <details>
+      <summary>Defolu ürünlerde iade var mı?</summary>
+      <p>İlanda belirtilen kusurlar görsel ve metinle açıkça yazılır. Beklenmedik bir durum varsa 3 gün içinde koşulsuz iade.</p>
+    </details>
+    <details>
+      <summary>Kargo ücreti nedir?</summary>
+      <p>Tek parça için şehir içi genelde 79–109 ₺ arası. Çoklu alımlarda birleşik kargo yapılır.</p>
+    </details>
+    <details>
+      <summary>Ölçü bilgisi nasıl?</summary>
+      <p>Omuz–göğüs–boy ölçüleri ürün kartında yer alır. Tereddütte kalırsan WhatsApp’tan yaz.</p>
+    </details>
+  </section>
+
+  <footer class="footer">
+    <div class="wrap">
+      <p>© <span id="yil"></span> AYT Vintage — İstanbul, Türkiye</p>
+      <p class="tiny">Sitedeki görseller temsili olabilir. Gerçek ürün fotoğrafları istek üzerine paylaşılır.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
